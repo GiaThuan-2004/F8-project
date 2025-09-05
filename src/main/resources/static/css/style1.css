@@ -62,8 +62,19 @@ a {
 }
 
 /* ------------header-------------- */
-.header {
+
+.fixed-header {
+    background: #E6F0FF;
+    padding-top: 38px;
+    position: sticky;
+    top: -38px;
+    z-index: 1;
+}
+
+.header-wrap {
     position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #E6F0FF;
     height: 100vh;
 }
@@ -71,7 +82,8 @@ a {
 .nav-bar {
     display: flex;
     align-items: center;
-    padding-top: 40px;
+    /* padding-top: 40px; */
+    padding: 12px 0;
     font-weight: 500;
     font-size: 1.4rem;
 }
