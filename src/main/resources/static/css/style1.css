@@ -75,14 +75,6 @@ a {
     z-index: 1;
 }
 
-.header-wrap {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background-color: #E6F0FF;
-    height: calc(100vh - 96px);
-}
-
 .nav-bar {
     display: flex;
     align-items: center;
@@ -124,8 +116,16 @@ a {
 /* ------------hero-------------- */
 
 .hero {
-    margin-top: 130px;
     width: 560px;
+}
+
+.hero-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E6F0FF;
+    height: calc(100vh - 96px);
 }
 
 .hero .sub-title {
