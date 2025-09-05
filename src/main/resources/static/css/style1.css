@@ -6,6 +6,10 @@
     --primary-color: #0F1B4C;
 }
 
+body, html {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -76,7 +80,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #E6F0FF;
-    height: 100vh;
+    height: calc(100vh - 96px);
 }
 
 .nav-bar {
